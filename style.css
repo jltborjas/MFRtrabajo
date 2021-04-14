@@ -1,0 +1,38 @@
+/* Selectores de etiquetas */
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: sky   blue;
+    margin-left:15px;
+    margin-right:15px;
+    
+}
+nav > ul > li {
+    display: inline;
+}
+
+nav > ul > li > a{
+    text-decoration: none; 
+}
+
+nav > ul {
+    text-align: center;
+}
+
+/* Selectores de ID */
+#title{
+    text-align:center;
+    border: 5px dotted gray;
+    padding:10px;
+    /* margin: initial 20px initial 20px; */
+    margin-left:20px ;
+    margin-right:20px;
+}
+
+/* Selectores de clase */
+.important{
+    color:red;
+    font-style: italic;
+    font-weight: bold;
+}
