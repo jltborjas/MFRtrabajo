@@ -1,0 +1,62 @@
+* {
+    border-radius: 6px;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+main {
+    border: blue dotted 6px;
+}
+
+h1 {
+    background-color: yellow;
+    border: 1px solid black;
+    text-align: center;
+}
+
+header p {
+    background-color: slategray;
+    border: 2px solid black;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+}
+
+footer p {
+    background-color: cornflowerblue;
+    border: 2px display black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+}
+
+body {
+    border: darkgreen solid 6px;
+    background-color: antiquewhite;
+    font-style: italic;
+    font-weight: bold;
+}
+
+main nav ul {
+    background-color: cadetblue;
+    border: darkgoldenrod double;
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#Lista {
+    border: black 2px;
+    background-color: cyan;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: large;
+}
+
+li {
+    padding: 15px
+}
+
+li:hover {
+    background-color: black;
+    color: white;
+}
